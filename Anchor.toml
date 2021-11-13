@@ -1,0 +1,15 @@
+[programs.devnet]
+myepicproject = "CZyhcpwq2mFZWuEFHE3nfVm7qSUYyQkZc5iek9HhzQKs"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/mnaga/.config/solana/id.json"
+
+[scripts]
+test = "node tests/myepicproject.js" 
+
+[test]
+startup_wait = 100000
